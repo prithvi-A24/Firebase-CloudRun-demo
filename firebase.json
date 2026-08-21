@@ -11,8 +11,12 @@
         "source": "/hello-world-service/**",
         "run": {
           "serviceId": "hello-world-service",
-          "region": "us-central1"
+          "region": "asia-south1"
         }
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
